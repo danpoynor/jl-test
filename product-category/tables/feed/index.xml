@@ -9,8 +9,8 @@
 
 <channel>
 	<title>Tables &#8211; JEANINE LALL</title>
-	<atom:link href="/product-category/tables/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="https://danpoynor.github.io/jl-test/product-category/tables/feed/" rel="self" type="application/rss+xml" />
+	<link>https://danpoynor.github.io/jl-test/</link>
 	<description>Life In Color</description>
 	<lastBuildDate>Tue, 05 Mar 2024 22:28:27 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -21,11 +21,11 @@
 	<generator>https://wordpress.org/?v=6.4.3</generator>
 	<item>
 		<title>Placeholder Product</title>
-		<link>/jl-product/placeholder-product/</link>
+		<link>https://danpoynor.github.io/jl-test/jl-product/placeholder-product/</link>
 		
 		<dc:creator><![CDATA[danpoynoradmin]]></dc:creator>
 		<pubDate>Tue, 05 Mar 2024 17:50:12 +0000</pubDate>
-				<guid isPermaLink="false">/?post_type=jl-product#038;p=194</guid>
+				<guid isPermaLink="false">https://danpoynor.github.io/jl-test/?post_type=jl-product#038;p=194</guid>
 
 					<description><![CDATA[This is placeholder content]]></description>
 		

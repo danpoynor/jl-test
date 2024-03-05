@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments on: Privacy Policy	</title>
-	<atom:link href="/privacy-policy/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="https://danpoynor.github.io/jl-test/privacy-policy/feed/" rel="self" type="application/rss+xml" />
+	<link>https://danpoynor.github.io/jl-test/</link>
 	<description>Life In Color</description>
 	<lastBuildDate>Mon, 04 Mar 2024 16:49:36 +0000</lastBuildDate>
 	<sy:updatePeriod>
