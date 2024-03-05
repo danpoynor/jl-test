@@ -1,0 +1,148 @@
+/**
+ * Theme Name: Blocksy Child
+ * Description: Blocksy Child theme
+ * Author: Creative Themes
+ * Template: blocksy
+ * Text Domain: blocksy
+ */
+
+body {
+    background-color: #f3f2f2 !important;
+}
+
+/* Style the container of the main product menu */
+.header-products-menu {
+    background-color: #ffffff; /* Change the background color to white */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #e0e0e0; /* Use a subtle border color */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+}
+
+/* Style the main menu items */
+.header-products-menu .menu-item {
+    display: inline-block;
+    position: relative;
+    margin-right: 20px;
+    transition: color 0.3s ease; /* Add a transition for a smooth color change */
+}
+
+/* Style the links of the main menu items */
+.header-products-menu .menu-item > a {
+    color: #333;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.header-products-menu .menu-item:hover > a {
+    color: #000; /* Change the color when hovering over a menu item */
+}
+
+/* Hide the dropdown menu by default */
+.header-products-menu .sub-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #ffffff; /* Change the background color to white */
+    padding: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+    z-index: 999;
+}
+
+/* Style the links of the dropdown menu items */
+.header-products-menu .sub-menu .menu-item > a {
+    display: block;
+    color: #333;
+    text-decoration: none;
+    padding: 10px;
+}
+
+/* Show the dropdown menu when hovering over a menu item with children */
+.header-products-menu .menu-item-has-children:hover .sub-menu {
+    display: block;
+}
+
+/* Style the links of the dropdown menu items */
+.header-products-menu .sub-menu .menu-item > a {
+    display: block;
+    color: #333;
+    text-decoration: none;
+    padding: 10px;
+    white-space: nowrap; /* Prevent text from wrapping */
+}
+
+/* Add a border around each dropdown menu item */
+.header-products-menu .sub-menu .menu-item {
+    border: 1px solid #e0e0e0; /* Use a subtle border color */
+    margin: 5px 0; /* Add some vertical margin between items */
+}
+
+
+#menu-header-products-menu > .menu-item:not([class*=ct-mega-menu]) .sub-menu li:first-child {
+    border-top: 1px solid #e0e0e0;
+}
+
+/* Footer Social Menu */
+footer .footer-social-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #e0e0e0; /* Use a subtle border color */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+}
+
+[data-footer*="type-1"] .ct-footer [data-row*="middle"] > div {
+    padding: 2rem 1rem 0;
+}
+
+.menu-footer-social-menu-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main .ct-media-container img, 
+#main .ct-media-container video, 
+#main .ct-media-container picture {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    outline: 1px solid red;
+}
+
+.product-detail {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: auto;
+    margin-right: auto;
+    width: var(--theme-container-width);
+    max-width: var(--theme-block-max-width);
+}
+
+.product-detail .product-images {
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.product-detail .product-images img {
+    max-width: 480px;
+    height: auto;
+    width: initial;
+    margin-bottom: 1rem;
+}
+
+.product-detail .product-info {
+    flex: 1;
+}
+
+.ct-title-label {
+    display: none;
+}
+
+[data-archive=default][data-layout*=grid] .entry-card .entry-title {
+    margin-bottom: .5rem !important;
+}
